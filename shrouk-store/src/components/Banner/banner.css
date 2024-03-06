@@ -1,0 +1,45 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.banner-lift{
+    background-image: url(../../assets/images/banner/banner-1-bg.jpg);
+    width: 50%;
+    height: 300px;
+}
+.banner-lift div{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.banner-lift div > *{
+    margin-bottom: 20px;
+}
+.banner-lift h3{
+    color: gray;
+}
+.banner-right{
+    background-image: url(../../assets/images/banner/banner-2-bg.jpg);
+    width: 50%;
+    height: 300px;
+}
+.banner-right div{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.banner-right div > *{
+    margin-bottom: 20px;
+}
+.banner-right h3{
+    color: gray;
+}
+.banner button{
+    background-color: rgb(72, 72, 205);
+    padding: 10px;
+    font-size: 18px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}

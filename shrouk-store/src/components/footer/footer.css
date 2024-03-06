@@ -1,0 +1,111 @@
+footer{
+    background-color: rgb(29, 29, 43);
+    padding: 30px;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.footer-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-up img{
+    width: 200px;
+}
+hr{
+    opacity: 0.7;
+    margin: 20px 0px;
+}
+.footer-up-middle{
+    color: #fff;
+}
+.footer-up-middle h3{
+    color: gray;
+
+}
+.subscribe{
+    display: flex;
+}
+.subscribe input{
+    padding: 10px;
+    outline: none;
+}
+.subscribe button{
+    width: 100px;
+    background-color:  rgb(72, 72, 205);
+    color: #fff;
+    border: none;
+}
+footer ul{
+    list-style: none;
+}
+
+.footer-middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer-middle div{
+    width: 33%;
+}
+.footer-middle-lift{
+    color: #fff;
+    text-align: center;
+}
+
+.footer-middle-lift p{
+color: gray;
+}
+.footer-middle-links h2{
+     margin-bottom: 20px;
+     color: #fff;
+}
+.footer-middle-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-middle-links ul a{
+    color: #fff;
+    transition: 0.5s;
+}
+.footer-middle-links ul a:hover{
+    color:  rgb(72, 72, 205);
+}
+.footer-middle-social h2{
+   margin-bottom: 20px;
+    color: #fff;
+}
+.footer-middle-social ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-middle-social ul a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer-middle-social ul a:hover{
+    color: rgb(72, 72, 205);
+}
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-down p{
+font-size: 18px;
+color: #fff;
+}
+.footer-down div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

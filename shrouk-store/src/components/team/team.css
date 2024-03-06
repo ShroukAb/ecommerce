@@ -1,0 +1,51 @@
+
+
+.team p{
+ width: 50%;
+text-align: center;
+margin: 10px auto;
+line-height: 1.5;
+font-size: 18px;
+color: gray;
+}
+.chars{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.char{
+    width: 22%;
+    border: 1px solid #eee;
+    text-align: center;
+}
+.char img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.char h2{
+    color:  rgb(72, 72, 205) ;
+}
+.char h3{
+    color: gray;
+}
+.char div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  
+}
+.char .team-icon{
+    border: 1px solid #eee;
+  padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.char .team-icon:hover{
+    background-color:  rgb(72, 72, 205);
+    color: #fff;
+}

@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    gap: 10px;
+    background-color: #ccc;
+}
+nav .logo-icon{
+    font-size: 30px;
+}
+ nav .nav-middle ul{
+    list-style: none;
+   
+    display: flex;
+    gap: 20px;
+}
+nav .nav-middle ul a{
+color: #000;
+font-size: 18px;
+text-decoration: none;
+transition: 0.5s;
+color:  rgb(72, 72, 205) ;
+padding: 10px;
+}
+nav .nav-middle ul a:hover{
+ background-color: #fff;
+}
+nav .nav-right{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+nav .nav-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+nav .nav-right span{
+    width: 5px;
+    height: 5px;
+    line-height: 5px;
+    background-color: red;
+    color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}

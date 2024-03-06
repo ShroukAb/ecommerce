@@ -1,0 +1,26 @@
+
+
+.feature-categories p{
+width: 50%;
+text-align: center;
+margin: 10px auto;
+line-height: 1.5;
+font-size: 18px;
+color: gray;
+}
+.features{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.feature{
+    display: flex;
+    width: 30%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.feature-text{
+margin-bottom: 20px;
+color: grey;
+}
